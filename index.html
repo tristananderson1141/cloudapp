@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<!--
+    Name: Tristan Anderson
+    Course: CSC227.0001
+    Date: May 7th, 2021
+    Filename: UnitConverter.html - Converter.js
+    Purpose: HTML5 Document for Final Project, displays a simple converter for
+            various units of measure.
+-->
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="stylesheet-ta.css">
+        <title>Tristan A - Cloud Project</title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Simple Unit of Distance Converter</h1>
+            <h2>Tristan Anderson</h2>
+            <h2>CSC.227 Final Project</h2>
+        </div>
+        <table>
+            <tr>
+                <td>
+                    miles:<br>
+                    <input type="text" id="mi"/>
+                </td>
+                <td>
+                    <br>to<br>
+                </td>
+                <td>
+                    kilometers:<br>
+                    <input type="text" id="km"/>
+                </td>
+            </tr>
+                <td>
+                    <input type="button" id="MiToKm" value="Convert to Km" onclick="convertToKm()"/>
+                </td>
+                <td>
+
+                </td>
+                <td>
+                    <input type="button" id="KmToMi" value="Convert to Mi" onclick="convertToMi()"/>
+                </td>
+            <tr>
+                <td>
+                    <input type="button" id="reset" value="Clear" onclick="clearDisplay()"/>
+                </td>
+            </tr>
+        </table>
+        <script src="Converter.js"></script>
+    </body>
+</html>
